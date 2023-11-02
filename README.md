@@ -9,6 +9,7 @@
 `go-middlewares` is a collection of commonly used middlewares in Go.
 
 - [Usage](#usage)
+- [Installation](#installation)
 - [Communication](#communication)
 - [Contributing](#contributing)
 - [Author](#author)
@@ -42,6 +43,12 @@ http.Handle("/your-route", handler)
 
 // Start your HTTP server.
 http.ListenAndServe(":8080", nil)
+```
+
+## Installation
+
+```
+go get github.com/space-code/go-middleware
 ```
 
 ## Communication
